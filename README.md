@@ -20,7 +20,7 @@ undergoes change during development.
 
 ## Building ELF object files
 
-To build ELF object files for usage with `github.com/iovisor/gobpf/elf`,
-you must use distinct sections (`SEC("...")`). Currently, only
-`kprobe/...` and `maps/...` are supported. For an example, see
+To build ELF object files for usage with `github.com/iovisor/gobpf/elf`, you
+must use distinct sections (`SEC("...")`). Currently, only `kprobe/...`,
+`maps/...`, `cgroup/skb` and `cgroup/sock` are supported. For an example, see
 `tests/dummy.c`.
